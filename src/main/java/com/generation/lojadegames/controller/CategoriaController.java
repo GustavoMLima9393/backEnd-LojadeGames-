@@ -21,7 +21,7 @@ import com.generation.lojadegames.model.Categoria;
 import com.generation.lojadegames.repository.CategoriaRepository;
 
 @RestController
-@RequestMapping("/categoriaFarm")
+@RequestMapping("/categoria")
 @CrossOrigin(origins="*", allowedHeaders="*")
 public class CategoriaController {
 	
